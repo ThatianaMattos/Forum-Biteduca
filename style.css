@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(0deg, #9b90b7 0%, rgba(4,4,52,1) 100%);
-    margin: 0;
-    padding: 0;
+    margin: 20;
+    padding: 10;
     font-family: Arial, sans-serif;
 }
 
@@ -135,6 +135,49 @@ video {
 
 footer {
     margin-top: 20px; /* Adicionar espaço entre o conteúdo e o rodapé */
+}
+
+#btnAtividades{
+    background-color: #0bae36;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    padding: 20px 25px;
+    font-size: 38px;
+    border: none;
+    cursor: pointer;
+    display: inline-block; /* Alterado para inline-block para ficarem lado a lado */
+    margin-right: 20px; /* Adicionado espaçamento entre os botões */
+    margin-bottom: 40px;
+
+}
+#btnMenu{
+    background-color: #3d2eee;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    padding: 20px 25px;
+    font-size: 38px;
+    border: none;
+    cursor: pointer;
+    display: inline-block; /* Alterado para inline-block para ficarem lado a lado */
+    margin-right: 20px; /* Adicionado espaçamento entre os botões */
+    margin-bottom: 40px;
+
+
+}
+#btnProxima{
+    background-color: #3d2eee;
+        border-radius: 10px;
+        font-weight: bold;
+        color: white;
+        padding: 20px 25px;
+        font-size: 38px;
+        border: none;
+        cursor: pointer;
+        display: inline-block; /* Alterado para inline-block para ficarem lado a lado */
+        margin-right: 20px; /* Adicionado espaçamento entre os botões */
+        margin-bottom: 40px;
 }
 button {
         background-color: #3d2eee;
