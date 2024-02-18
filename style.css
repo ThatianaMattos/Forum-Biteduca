@@ -1,0 +1,164 @@
+body {
+    background: linear-gradient(0deg, #9b90b7 0%, rgba(4,4,52,1) 100%);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+h1 {
+    
+    font-size: 5rem;
+    color: #f8f8f8;
+    width: 100%;
+    height: 65px;
+    padding: 35px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 70px;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #000000;
+    display: block;
+    padding: 20px;
+    margin: 50px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    background: linear-gradient(0deg, rgba(73,74,132,1) 0%, rgba(1,15,133,1) 100%);
+    color: white;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: white;
+    margin: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+a {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color:  #3d2eee;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #998eb5;
+    text-align: center;
+}
+
+button {
+    background-color: #3d2eee;
+    font-weight: bold;
+    color: white;
+    padding: 20px 25px;
+    font-size: 38px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+button:hover {
+    background-color: #3769f3;
+
+}
+
+.icon {
+    margin-left: 10px;
+}
+body {
+    background-color: #3498db; /* Azul */
+    color: #ffffff; /* Branco */
+    max-width: 1200px;
+    margin: 0 auto; /* Centralizar o conteúdo na página */
+    padding: 20px; /* Adicionar um espaço ao redor do conteúdo */
+    font-family: Arial, sans-serif; /* Escolha uma fonte apropriada */
+}
+
+/* Adicione estilos específicos para as seções, se necessário */
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: 20px; /* Adicionar espaço entre o conteúdo e o rodapé */
+}
+button {
+        background-color: #3d2eee;
+        border-radius: 10px;
+        font-weight: bold;
+        color: white;
+        padding: 20px 25px;
+        font-size: 38px;
+        border: none;
+        cursor: pointer;
+        display: inline-block; /* Alterado para inline-block para ficarem lado a lado */
+        margin-right: 20px; /* Adicionado espaçamento entre os botões */
+        margin-bottom: 40px;
+    }
+    .atividades{
+        background-color: #0bae36;
+        border-radius: 10px;
+        font-weight: bold;
+        color: white;
+        padding: 20px 25px;
+        font-size: 38px;
+        border: none;
+        cursor: pointer;
+        display: inline-block; /* Alterado para inline-block para ficarem lado a lado */
+        margin-right: 20px; /* Adicionado espaçamento entre os botões */
+        margin-bottom: 40px;
+    }
