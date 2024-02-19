@@ -1,10 +1,12 @@
 body {
     background: linear-gradient(0deg, #9b90b7 0%, rgba(4,4,52,1) 100%);
-    margin: 20;
-    padding: 10;
-    font-family: Arial, sans-serif;
+    background-color: #3498db; /* Azul */
+    color: #ffffff; /* Branco */
+    max-width: 1200px;
+    margin: 0 auto; /* Centralizar o conteúdo na página */
+    padding: 20px; /* Adicionar um espaço ao redor do conteúdo */
+    font-family: Arial, sans-serif; /* Escolha uma fonte apropriada */
 }
-
 .header {
     max-width: 1200px;
     margin: 0 auto;
@@ -48,15 +50,6 @@ img {
     margin: 0 auto;
 }
 
-nav {
-    background: linear-gradient(0deg, rgba(73,74,132,1) 0%, rgba(1,15,133,1) 100%);
-    color: white;
-    padding: 20px;
-    margin-top: 60px;
-    margin-bottom: 80px;
-    border-radius: 20px;
-}
-
 ul {
     list-style: none;
     padding: 0;
@@ -64,35 +57,16 @@ ul {
 }
 
 li {
-    background-color: white;
+   
     margin: 30px;
     margin-bottom: 20px;
     border-radius: 20px;
 }
 
-a {
-    font-size: 2rem;
-    font-weight: bold;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #333;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-a:hover {
-    background-color:  #3d2eee;
-    color: #fff;
-    border-radius: 20px;
-    text-decoration: none;
-}
-
 p {
     font-size: 2rem;
     font-weight: bold;
-    color: #998eb5;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -105,7 +79,7 @@ button {
     border: none;
     cursor: pointer;
     display: block;
-    margin: 0 auto;
+    text-align: center;
     margin-bottom: 40px;
 }
 
@@ -114,9 +88,6 @@ button:hover {
 
 }
 
-.icon {
-    margin-left: 10px;
-}
 body {
     background-color: #3498db; /* Azul */
     color: #ffffff; /* Branco */
@@ -137,73 +108,31 @@ footer {
     margin-top: 20px; /* Adicionar espaço entre o conteúdo e o rodapé */
 }
 #botoes {
+    display: flex;
+    justify-content: space-between;
   text-align: center;
 }
-#btnAtividades{
+
+.btnCurso {
+    background-color: #3d2eee;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    padding: 20px 25px;
+    font-size: 38px;
+    border: none;
+    cursor: pointer;
+    display: inline-block; /* Alterado para inline-block para ficarem lado a lado */
+    margin-right: 20px; /* Adicionado espaçamento entre os botões */
+    margin-bottom: 40px;
+}
+
+#btnAtividades {
     background-color: #0bae36;
-    border-radius: 10px;
-    font-weight: bold;
-    color: white;
-    padding: 20px 25px;
-    font-size: 38px;
-    border: none;
-    cursor: pointer;
-    display: inline-block; /* Alterado para inline-block para ficarem lado a lado */
-    margin-right: 20px; /* Adicionado espaçamento entre os botões */
-    margin-bottom: 40px;
-
 }
-#btnMenu{
-    background-color: #3d2eee;
-    border-radius: 10px;
-    font-weight: bold;
-    color: white;
-    padding: 20px 25px;
-    font-size: 38px;
-    border: none;
-    cursor: pointer;
-    display: inline-block; /* Alterado para inline-block para ficarem lado a lado */
-    margin-right: 20px; /* Adicionado espaçamento entre os botões */
-    margin-bottom: 40px;
 
-
+#aula1 {
+    background-color: #998eb5;
+    padding: 20px;
+    border-radius: 15px;
 }
-#btnProxima{
-    background-color: #3d2eee;
-        border-radius: 10px;
-        font-weight: bold;
-        color: white;
-        padding: 20px 25px;
-        font-size: 38px;
-        border: none;
-        cursor: pointer;
-        display: inline-block; /* Alterado para inline-block para ficarem lado a lado */
-        margin-right: 20px; /* Adicionado espaçamento entre os botões */
-        margin-bottom: 40px;
-}
-button {
-        background-color: #3d2eee;
-        border-radius: 10px;
-        font-weight: bold;
-        color: white;
-        padding: 20px 25px;
-        font-size: 38px;
-        border: none;
-        cursor: pointer;
-        display: inline-block; /* Alterado para inline-block para ficarem lado a lado */
-        margin-right: 20px; /* Adicionado espaçamento entre os botões */
-        margin-bottom: 40px;
-    }
-    .atividades{
-        background-color: #0bae36;
-        border-radius: 10px;
-        font-weight: bold;
-        color: white;
-        padding: 20px 25px;
-        font-size: 38px;
-        border: none;
-        cursor: pointer;
-        display: inline-block; /* Alterado para inline-block para ficarem lado a lado */
-        margin-right: 20px; /* Adicionado espaçamento entre os botões */
-        margin-bottom: 40px;
-    }
