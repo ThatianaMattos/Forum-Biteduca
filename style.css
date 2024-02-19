@@ -136,7 +136,9 @@ video {
 footer {
     margin-top: 20px; /* Adicionar espaço entre o conteúdo e o rodapé */
 }
-
+#botoes {
+  text-align: center;
+}
 #btnAtividades{
     background-color: #0bae36;
     border-radius: 10px;
